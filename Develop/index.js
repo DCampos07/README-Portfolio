@@ -1,12 +1,13 @@
  // Write the user response to a file by chaining the below callback method to the prompt above.
  const fs = require('fs');
  const inquirer = require('inquirer');
-
+ const markDown = require("./utils/generateMarkdown")
 
 
 // array of questions for user
-const questions = inquirer
-.prompt([
+const questions = () => {
+ return inquirer.
+    prompt([
   {
     type: 'input',
     name: 'username',
@@ -45,17 +46,17 @@ const questions = inquirer
     type: 'input',
     message: 'dependencies',
     name: 'What command should be run to install dependencies?',
-  }
+  },
   {
     type: 'input',
     message: 'test',
     name: 'What command should be run to run tests?',
-  }
+  },
   {
     type: 'input',
     message: 'using-repo',
     name: 'What does the user need to know about using the repo?',
-  }
+  },
   {
     type: 'input',
     message: 'contributions',
@@ -64,24 +65,24 @@ const questions = inquirer
 
 ])
 
+questions().then((answers) => {
+    console.log(answers);
+
+    var template = markDown(answers);
+    writeToFile("challenge.md,template");
+});
 
 // function to write README file
-.then(function(data) {
-    // Bonus: Generate the name of your user file from their input
-    const filename =
-      data.name
-        .toLowerCase()
-        .split(' ')
-        .join('') + '.json';
+function writeToFile(fileName, data) {
 
-    fs.writeFile(filename, JSON.stringify(data, null, '\t'), function(err) {
+    fs.writeFile(filename, data, function (err) {
       if (err) {
         return console.log(err);
       }
 
       console.log('Success!');
     });
-  });
+  }
 
 // function to initialize program
 function init() {
@@ -89,4 +90,4 @@ function init() {
 }
 
 // function call to initialize program
-init();
+init()};
