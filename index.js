@@ -1,35 +1,30 @@
  // Write the user response to a file by chaining the below callback method to the prompt above.
  const fs = require('fs');
  const inquirer = require('inquirer');
- const markDown = require("./utils/generateMarkdown")
+ const markDown = require("./Develop/utils/generateMarkdown");
 
 
 // array of questions for user
 const questions = () => {
- return inquirer.
-    prompt([
-  {
-    type: 'input',
+ return inquirer.prompt([
+  
+  { type: 'input',
     name: 'username',
-    message: 'What is your Github username?'
+    message: 'What is your Github username?',
   },
-  {
-    type: 'input',
-    message: 'email',
-    name: 'What is your e-mail address?',
+  { type: 'input',
+    name: 'email',
+    message: 'What is your e-mail address?',
   },
-  {
-    type: 'input',
-    message: 'title',
-    name: 'What is your projects name?',
-  }
-  {
-    type: 'input',
+  { type: 'input',
+    name: 'title',
+    message: 'What is your projects name?',
+  },
+  { type: 'input',
     name: 'description',
-    message: 'Please write a short description of your project'
+    message: 'Please write a short description of your project',
   },
-  {
-    type: 'checklist',
+  { type: 'checklist',
     name: 'licences',
     message: 'What kind of licenses shourld your project have?',
                 choices:
@@ -42,28 +37,24 @@ const questions = () => {
                     'Academic Free license',
                     ],
   },
-  {
-    type: 'input',
-    message: 'dependencies',
-    name: 'What command should be run to install dependencies?',
+  { type: 'input',
+    name: 'dependencies',
+    message: 'What command should be run to install dependencies?',
   },
-  {
-    type: 'input',
-    message: 'test',
-    name: 'What command should be run to run tests?',
+  { type: 'input',
+    name: 'test',
+    message: 'What command should be run to run tests?',
   },
-  {
-    type: 'input',
-    message: 'using-repo',
-    name: 'What does the user need to know about using the repo?',
+  { type: 'input',
+    name: 'using-repo',
+    message: 'What does the user need to know about using the repo?',
   },
-  {
-    type: 'input',
-    message: 'contributions',
-    name: 'What does the user need to know about using the repo?',
+  { type: 'input',
+    name: 'contributions',
+    message: 'What does the user need to know about using the repo?',
   }
 
-])
+]);}
 
 questions().then((answers) => {
     console.log(answers);
@@ -83,11 +74,3 @@ function writeToFile(fileName, data) {
       console.log('Success!');
     });
   }
-
-// function to initialize program
-function init() {
-
-}
-
-// function call to initialize program
-init()};
