@@ -1,8 +1,6 @@
-const fs = require('fs');
-const inquirer = require('inquirer');
-
  // Write the user response to a file by chaining the below callback method to the prompt above.
-  
+ const fs = require('fs');
+ const inquirer = require('inquirer');
 
 
 
@@ -21,7 +19,7 @@ const questions = inquirer
   },
   {
     type: 'input',
-    message: 'project',
+    message: 'title',
     name: 'What is your projects name?',
   }
   {
@@ -31,7 +29,7 @@ const questions = inquirer
   },
   {
     type: 'checklist',
-    message: 'licences',
+    name: 'licences',
     message: 'What kind of licenses shourld your project have?',
                 choices:
                     [
@@ -42,8 +40,8 @@ const questions = inquirer
                     'Mozilla Public license',
                     'Academic Free license',
                     ],
-            },
-            {
+  },
+  {
     type: 'input',
     message: 'dependencies',
     name: 'What command should be run to install dependencies?',
@@ -55,12 +53,12 @@ const questions = inquirer
   }
   {
     type: 'input',
-    message: 'using repo',
+    message: 'using-repo',
     name: 'What does the user need to know about using the repo?',
   }
   {
     type: 'input',
-    message: 'contributing',
+    message: 'contributions',
     name: 'What does the user need to know about using the repo?',
   }
 
