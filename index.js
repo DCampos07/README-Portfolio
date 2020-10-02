@@ -3,7 +3,6 @@
  const inquirer = require('inquirer');
  const markDown = require("./Develop/utils/generateMarkdown");
 
-
 // array of questions for user
 const questions = () => {
  return inquirer.prompt([
@@ -49,11 +48,6 @@ const questions = () => {
     name: 'using-repo',
     message: 'What does the user need to know about using the repo?',
   },
-  { type: 'input',
-    name: 'contributions',
-    message: 'What does the user need to know about using the repo?',
-  }
-
 ]);}
 
 questions().then((answers) => {
