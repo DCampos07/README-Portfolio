@@ -11,8 +11,8 @@ const generateMarkdown = (data) => {
    ${data.description}
 
   ## Table of Contents:
-   * [Contact Information](#email, #userName) 
-   * [Description](#description)
+   * [GitHub Repo](#userName)
+   * [E-mail](#email)
    * [Installation](#dependencies)
    * [Commands](#test)
    * [Usage](#usingRepo)
