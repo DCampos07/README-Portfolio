@@ -1,7 +1,9 @@
  // Write the user response to a file by chaining the below callback method to the prompt above.
  const fs = require('fs');
- const inquirer = require('inquirer');
+
  const markDown = require("./Develop/utils/generateMarkdown");
+
+ const inquirer = require('inquirer');
 
 // array of questions for user
 const questions = () => {
@@ -25,7 +27,7 @@ const questions = () => {
   },
   { type: 'checklist',
     name: 'licences',
-    message: 'What kind of licenses shourld your project have?',
+    message: 'What kind of licenses should your project have?',
                 choices:
                     [
                     'Artistic license 2.0',
@@ -45,8 +47,12 @@ const questions = () => {
     message: 'What command should be run to run tests?',
   },
   { type: 'input',
-    name: 'using-repo',
+    name: 'usingRepo',
     message: 'What does the user need to know about using the repo?',
+  },
+  { type: 'input',
+    name: 'contributions',
+    message: 'What contributions did you have for this project?',
   },
 ]);}
 
@@ -54,7 +60,7 @@ questions().then((answers) => {
     console.log(answers);
 
     var template = markDown(answers);
-    writeToFile("challenge.md,template");
+    writeToFile("challenge.md",template);
 });
 
 // function to write README file
