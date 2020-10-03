@@ -18,10 +18,10 @@ const generateMarkdown = (data) => {
 
 
   ## Contact Information:
-    ${data.userName} ${data.email}
+    ${data.github} ${data.email}
 
   ## Usage:
-   ${data.usingRepo}
+   ${data.repo}
   
   ## Questions and Info:
   ${data.questions}

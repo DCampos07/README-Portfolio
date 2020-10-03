@@ -1,10 +1,10 @@
 
 
   # Title:
-   README-Portfolio
+   project name
 
   ## Description:
-   short description of the project
+   project description
 
   ## Table of Contents:
    * [GitHub Repo](#github)
@@ -16,13 +16,13 @@
 
 
   ## Contact Information:
-    undefined dccampos00@gmail.com
+    username email address
 
   ## Usage:
-   undefined
+   know something
   
   ## Questions and Info:
-  have a great time watching me struggle
+  project information
   
   ### License:
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
