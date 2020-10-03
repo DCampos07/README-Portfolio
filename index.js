@@ -68,23 +68,8 @@ const questions = () => {
     },
     {
       type: 'input',
-      name: 'dependencies',
-      message: 'What command should be run to install dependencies?',
-    },
-    {
-      type: 'input',
-      name: 'test',
-      message: 'What command should be run to run tests?',
-    },
-    {
-      type: 'input',
       name: 'usage',
       message: 'What does the user need to know about using the repo?',
-    },
-    {
-      type: 'input',
-      name: 'contributions',
-      message: 'What contributions did you have for this project?',
     },
     {
       type: 'input',
@@ -117,7 +102,7 @@ questions().then((answers) => {
   console.log(answers);
 
   var template = markDown(answers);
-  writeToFile("challenge.md", template);
+  writeToFile("README.md", template);
 });
 
 // function to write README file
