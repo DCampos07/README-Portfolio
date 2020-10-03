@@ -11,7 +11,7 @@ const generateMarkdown = (data) => {
    ${data.description}
 
   ## Table of Contents:
-   * [Contact Information](#email) (#username)
+   * [Contact Information](#email, #userName) 
    * [Description](#description)
    * [Installation](#dependencies)
    * [Commands](#test)
@@ -19,8 +19,7 @@ const generateMarkdown = (data) => {
    * [Contributions](#contributions)
 
   ## Contact Information:
-    ${data.userName} 
-    ${data.email}
+    ${data.userName} ${data.email}
 
   ## Installation:
    ${data.dependencies}
