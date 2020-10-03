@@ -1,12 +1,12 @@
 
   #### License:
-   [![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)
+   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT),[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
   # Title:
-   README Challenge
+   README
 
   ## Description:
-   First project in understanding back end web developing
+   It is a project teaching us how to write a README from the back end.
 
   ## Table of Contents:
    * [GitHub Repo](#userName)
@@ -17,22 +17,22 @@
    * [Contributions](#contributions)
 
   ## Contact Information:
-    DCampos07 dccampos@gmail.com
+    DCampos07 dccampos00@gmail.com
 
   ## Installation:
-   Try any command you like
+   Choose your favorite
 
   ## Usage:
-   It was fun making it
+   It was really fun making it
 
   ## Credits:
   undefined
 
   ## Contributions:
-  I worked along side Cristian, and attended TA hours with Lanze
+  I worked with Cristian who is a fellow student and Lanze who is a TA
 
   ## Tests:
-  Run every test
+  Run all the tests you want.
   
   ## Questions and Info:
-  This is pretty cool.
+  Have fun reading it
