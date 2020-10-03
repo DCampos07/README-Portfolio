@@ -11,7 +11,7 @@ const questions = () => {
 
     {
       type: 'input',
-      name: 'userName',
+      name: 'user',
       message: 'What is your Github username?',
     },
     {
@@ -27,7 +27,7 @@ const questions = () => {
     {
       type: 'input',
       name: 'description',
-      message: 'Please write a short description of your project',
+      message: 'Please write a short description of your project:',
     },
     {
       type: 'checkbox',
@@ -78,7 +78,7 @@ const questions = () => {
     },
     {
       type: 'input',
-      name: 'usingRepo',
+      name: 'usage',
       message: 'What does the user need to know about using the repo?',
     },
     {
@@ -89,12 +89,12 @@ const questions = () => {
     {
       type: 'input',
       name: 'questions',
-      message: 'Please provide any further information needed for your project',
+      message: 'Please provide any further information needed for your project:',
     },
     {
       type: 'checkbox',
       name: 'media',
-      message: 'Please check any media you would like to add to your project',
+      message: 'Please check any media you would like to add to your project:',
       choices:
       [{
         message: "Video Media",

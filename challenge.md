@@ -6,36 +6,36 @@
    README-Portfolio
 
   ## Description:
-   How to write a README file through the control box
+   This project was created to quickly and easily generate a README file by using the command-line application.
 
   ## Table of Contents:
-   * [GitHub Repo](#userName)
+   * [GitHub Repo](#user)
    * [E-mail](#email)
    * [Installation](#dependencies)
    * [Commands](#test)
-   * [Usage](#usingRepo)
+   * [Usage](#usage)
    * [Contributions](#contributions)
+   * [Questions](#questions)
+   * [Project Media](#media)
+
 
   ## Contact Information:
-    DCampos07 dccampos00@gmail.com
+    undefined dccampos00@gmail.com
 
   ## Installation:
-   No commands are needed
+   I used the command-line application to create this README file.
 
   ## Usage:
-   It was the first time I worked on a back end project.
-
-  ## Credits:
-  undefined
+   undefined
 
   ## Contributions:
-  I worked with Cristian who is a fellow student and with Lanze who is one of the TA's
+  I worked closely with Cristian who is a fellow student.  During TA hours I worked with Lanze
 
   ## Tests:
-  No commands are needed
+  To run this test you should use the "node index.js" command.
   
   ## Questions and Info:
-  It was a lot of fun to make this
+  You will notice that what shows up on this text is different than the media link.  This was done on purpose in order to make the video shorter.
   
   ### Project Media:
   [![README walkthrough.mp4](https://github.com/DCampos07/README-Portfolio/blob/main/assets/README%20walkthrough.mp4),[![README-screenshot.png](https://github.com/DCampos07/README-Portfolio/blob/main/assets/README-screenshot.png)

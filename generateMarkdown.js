@@ -11,12 +11,15 @@ const generateMarkdown = (data) => {
    ${data.description}
 
   ## Table of Contents:
-   * [GitHub Repo](#userName)
+   * [GitHub Repo](#user)
    * [E-mail](#email)
    * [Installation](#dependencies)
    * [Commands](#test)
-   * [Usage](#usingRepo)
+   * [Usage](#usage)
    * [Contributions](#contributions)
+   * [Questions](#questions)
+   * [Project Media](#media)
+
 
   ## Contact Information:
     ${data.userName} ${data.email}
@@ -26,9 +29,6 @@ const generateMarkdown = (data) => {
 
   ## Usage:
    ${data.usingRepo}
-
-  ## Credits:
-  ${data.credits}
 
   ## Contributions:
   ${data.contributions}
