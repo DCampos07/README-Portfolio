@@ -9,10 +9,10 @@ const generateMarkdown = (data) => {
    ${data.description}
 
   ## Table of Contents:
-   * [GitHub Repo](#user)
+   * [GitHub Repo](#github)
    * [E-mail](#email)
    * [Licenses](#licences)
-   * [Usage](#usage)
+   * [Usage](#repo)
    * [Questions](#questions)
    * [Project Media](#media)
 
