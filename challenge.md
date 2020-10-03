@@ -3,37 +3,36 @@
    [![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)
 
   # Title:
-   lsdjf
+   README Challenge
 
   ## Description:
-   sdfl
+   First project in understanding back end web developing
 
   ## Table of Contents:
    * [GitHub Repo](#userName)
    * [E-mail](#email)
-   * [Description](#description)
    * [Installation](#dependencies)
    * [Commands](#test)
    * [Usage](#usingRepo)
    * [Contributions](#contributions)
 
   ## Contact Information:
-    ;asdhf kasdjh
+    DCampos07 dccampos@gmail.com
 
   ## Installation:
-   kjsdhf
+   Try any command you like
 
   ## Usage:
-   kjahdf
+   It was fun making it
 
   ## Credits:
   undefined
 
   ## Contributions:
-  kajdhf
+  I worked along side Cristian, and attended TA hours with Lanze
 
   ## Tests:
-  kdsjhf
+  Run every test
   
   ## Questions and Info:
-  kasdh
+  This is pretty cool.
