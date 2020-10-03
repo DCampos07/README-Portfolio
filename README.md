@@ -4,7 +4,7 @@
   README-Portfolio
 
   ## Description:
-  This project was designed to quickly and easily generate a README file by using a command line application.
+  short description text goes here
 
   ## Table of Contents:
    * [GitHub Repo](#github)
@@ -28,13 +28,13 @@
     npm init npm install
 
   ## Usage:
-  undefined
+    npm inquirer
   
   ## Credits:
-  cacevedo2011
+  a fellow student Cristian
 
   ### License:
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT),[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC),[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
   ## Project Media:
   [![README walkthrough.mp4](https://github.com/DCampos07/README-Portfolio/blob/main/assets/README%20walkthrough.mp4),[![README-screenshot.png](https://github.com/DCampos07/README-Portfolio/blob/main/assets/README-screenshot.png)
