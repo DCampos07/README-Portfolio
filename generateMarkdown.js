@@ -3,29 +3,38 @@ const generateMarkdown = (data) => {
   return `
 
   # Title:
-   ${data.title}
+  ${data.title}
 
   ## Description:
-   ${data.description}
+  ${data.description}
 
   ## Table of Contents:
    * [GitHub Repo](#github)
+   
    * [E-mail](#email)
+   
    * [Licenses](#licences)
+   
    * [Usage](#repo)
-   * [Questions](#questions)
+
+   * [Credits](#credits)
+   
    * [Project Media](#media)
 
 
   ## Contact Information:
-    ${data.github} ${data.email}
+  ${data.github} 
+  ${data.email}
+
+  ## Installation:
+    ${data.installation}
 
   ## Usage:
-   ${data.repo}
+  ${data.repo}
   
-  ## Questions and Info:
-  ${data.questions}
-  
+  ## Credits:
+  ${data.credits}
+
   ### License:
   ${data.licences}
 

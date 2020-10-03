@@ -30,6 +30,11 @@ const questions = () => {
       message: 'Please write a short description of your project:',
     },
     {
+      type: 'input',
+      name: 'installation',
+      message: 'Please write any installations needed for your project:',
+    },
+    {
       type: 'checkbox',
       name: 'licences',
       message: 'What kind of licenses should your project have?',
@@ -38,7 +43,7 @@ const questions = () => {
           message: "Artistic license 2.0",
           key: "Artistic license 2.0",
           value:
-            "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)",
+            "[!['License: Artistic-2.0'](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)",
         },
         {
           message: "MIT",
@@ -68,13 +73,13 @@ const questions = () => {
     },
     {
       type: 'input',
-      name: 'repo',
+      name: 'usage',
       message: 'What does the user need to know about using the repo?',
     },
     {
       type: 'input',
-      name: 'questions',
-      message: 'Please provide any further information needed for your project:',
+      name: 'credits',
+      message: 'Who helped you with this repo?',
     },
     {
       type: 'checkbox',
@@ -92,8 +97,8 @@ const questions = () => {
         key: "Screenshot",
         value:
           "[![README-screenshot.png](https://github.com/DCampos07/README-Portfolio/blob/main/assets/README-screenshot.png)",
-    },  
-  ],
+      },  
+            ],
 },
   ]);
 }
