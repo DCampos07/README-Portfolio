@@ -1,37 +1,39 @@
 
-  ### License
-   [![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0),[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT),[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC),[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0),[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+  #### License:
+   [![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0),[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  # Title
-   name
+  # Title:
+   Project
 
-  ## Description
-   descrip
+  ## Description:
+   This project is part of creating backend work
 
-  ## Table of Contents
-   * [Project Name](#username)
-   * [Contact Information](#email)
+  ## Table of Contents:
+   * [Contact Information](#email)(#username)
    * [Description](#description)
    * [Installation](#dependencies)
    * [Commands](#test)
    * [Usage](#usingRepo)
    * [Contributions](#contributions)
 
-  ## Installation
-   depend
+  ## Contact Information:
+    DCampos07 
+    dccampos00@gmail.co
 
-  ## Usage
-   repo
+  ## Installation:
+   You should use JavaScript
 
-  ## Credits
+  ## Usage:
+   The repo was made as practice
+
+  ## Credits:
   undefined
 
-  ## Contributions
-  contribu
+  ## Contributions:
+  I worked with Cristian who is a fellow student, and Lanze who is one of the TA's
 
-  ## Tests
-  command
+  ## Tests:
+  You should use test
   
-  ## Questions and Info
-  undefined
-  undefined
+  ## Questions and Info:
+  I hope you like it 
