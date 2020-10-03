@@ -38,6 +38,9 @@ const generateMarkdown = (data) => {
   
   ## Questions and Info:
   ${data.questions}
+  
+  ### Project Media:
+  ${data.media}
 `;
 }
 module.exports = generateMarkdown;

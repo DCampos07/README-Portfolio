@@ -91,6 +91,25 @@ const questions = () => {
       name: 'questions',
       message: 'Please provide any further information needed for your project',
     },
+    {
+      type: 'checkbox',
+      name: 'media',
+      message: 'Please check any media you would like to add to your project',
+      choices:
+      [{
+        message: "Video Media",
+        key: "Video Media",
+        value:
+          "[![README walkthrough.mp4](https://github.com/DCampos07/README-Portfolio/blob/main/assets/README%20walkthrough.mp4)",
+      },
+      {
+        message: "Screenshot",
+        key: "Screenshot",
+        value:
+          "[![README-screenshot.png](https://github.com/DCampos07/README-Portfolio/blob/main/assets/README-screenshot.png)",
+    },  
+  ],
+},
   ]);
 }
 

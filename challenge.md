@@ -1,12 +1,12 @@
 
   #### License:
-   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT),[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+   [![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0),[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT),[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
   # Title:
-   README
+   name
 
   ## Description:
-   It is a project teaching us how to write a README from the back end.
+   prject
 
   ## Table of Contents:
    * [GitHub Repo](#userName)
@@ -17,22 +17,25 @@
    * [Contributions](#contributions)
 
   ## Contact Information:
-    DCampos07 dccampos00@gmail.com
+    name email
 
   ## Installation:
-   Choose your favorite
+   run everything
 
   ## Usage:
-   It was really fun making it
+   it was fun making it
 
   ## Credits:
   undefined
 
   ## Contributions:
-  I worked with Cristian who is a fellow student and Lanze who is a TA
+  i worked with Cristian and Lanze
 
   ## Tests:
-  Run all the tests you want.
+  go wild
   
   ## Questions and Info:
-  Have fun reading it
+  it was a great challenge
+  
+  ### Project Media:
+  [![README walkthrough.mp4](https://github.com/DCampos07/README-Portfolio/blob/main/assets/README%20walkthrough.mp4),[![README-screenshot.png](https://github.com/DCampos07/README-Portfolio/blob/main/assets/README-screenshot.png)
