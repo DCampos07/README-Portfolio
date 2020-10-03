@@ -1,5 +1,5 @@
 // function to generate markdown for README
-function generateMarkdown = (data) => {
+const generateMarkdown =(data) => {
   return `
   ### License
    ${data.licences}
@@ -39,5 +39,4 @@ function generateMarkdown = (data) => {
   ${data.info2}
 `;
 }
-
 module.exports = generateMarkdown;
