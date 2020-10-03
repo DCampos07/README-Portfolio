@@ -1,15 +1,15 @@
 
   #### License:
-   [![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0),[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT),[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC),[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
   # Title:
-   Project
+   README.
 
   ## Description:
-   This project is part of creating backend work
+   A practice session into our first back end project.
 
   ## Table of Contents:
-   * [Contact Information](#email)(#username)
+   * [Contact Information](#email) (#username)
    * [Description](#description)
    * [Installation](#dependencies)
    * [Commands](#test)
@@ -18,22 +18,22 @@
 
   ## Contact Information:
     DCampos07 
-    dccampos00@gmail.co
+    dccampos00@gmail.com
 
   ## Installation:
-   You should use JavaScript
+   Try your favorite
 
   ## Usage:
-   The repo was made as practice
+   I worked very hard for it.
 
   ## Credits:
   undefined
 
   ## Contributions:
-  I worked with Cristian who is a fellow student, and Lanze who is one of the TA's
+  I worked with Cristian and with Lanze during TA hours
 
   ## Tests:
-  You should use test
+  Just run every test
   
   ## Questions and Info:
-  I hope you like it 
+  I had a great time doing this project.
