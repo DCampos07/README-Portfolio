@@ -30,7 +30,7 @@ const generateMarkdown = (data) => {
     ${data.installation}
 
   ## Usage:
-  ${data.repo}
+    ${data.usage}
   
   ## Credits:
   ${data.credits}
