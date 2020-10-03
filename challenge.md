@@ -1,12 +1,12 @@
 
   #### License:
-   [![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0),[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT),[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   # Title:
-   name
+   README-Portfolio
 
   ## Description:
-   prject
+   How to write a README file through the control box
 
   ## Table of Contents:
    * [GitHub Repo](#userName)
@@ -17,25 +17,25 @@
    * [Contributions](#contributions)
 
   ## Contact Information:
-    name email
+    DCampos07 dccampos00@gmail.com
 
   ## Installation:
-   run everything
+   No commands are needed
 
   ## Usage:
-   it was fun making it
+   It was the first time I worked on a back end project.
 
   ## Credits:
   undefined
 
   ## Contributions:
-  i worked with Cristian and Lanze
+  I worked with Cristian who is a fellow student and with Lanze who is one of the TA's
 
   ## Tests:
-  go wild
+  No commands are needed
   
   ## Questions and Info:
-  it was a great challenge
+  It was a lot of fun to make this
   
   ### Project Media:
   [![README walkthrough.mp4](https://github.com/DCampos07/README-Portfolio/blob/main/assets/README%20walkthrough.mp4),[![README-screenshot.png](https://github.com/DCampos07/README-Portfolio/blob/main/assets/README-screenshot.png)
