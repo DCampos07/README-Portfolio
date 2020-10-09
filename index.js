@@ -90,7 +90,7 @@ const questions = () => {
         message: "Video Media",
         key: "Video Media",
         value:
-          "[![README walkthrough.mp4](https://github.com/DCampos07/README-Portfolio/blob/main/assets/README%20walkthrough.mp4)",
+          "[![README walkthrough.mp4](https://drive.google.com/file/d/1N1y5TYVvKIKxH9t7mLpfTuJc_FwaaUBe/view?usp=sharing)",
       },
       {
         message: "Screenshot",

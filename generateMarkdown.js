@@ -15,7 +15,7 @@ const generateMarkdown = (data) => {
    
    * [Licenses](#licences)
    
-   * [Usage](#repo)
+   * [Usage](#usage)
 
    * [Credits](#credits)
    
